@@ -3,11 +3,13 @@
 TL;DR; The key here is this fact:
 
 > MATCH - return nothing if it finds nothing
+>
 > OPTIONAL MATCH - always return at least null
 
 So without `OPTIONAL` if node doesn't exist, the `MATCH` returns **no records** and Cyper query is not continued, which makes sens as we don't have "items" on which we can operate later.
 
 In my example, I had:
+
 ```cypher
   //...trimmed...
 

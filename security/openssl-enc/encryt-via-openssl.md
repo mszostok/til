@@ -6,6 +6,7 @@ There are dedicated solutions such as [`git-secret`](https://git-secret.io/) or 
 ## Example
 
 To decrypt [`example.yaml.enc`](./example.yaml.enc) stored in this repository,run:
+
 > You have to provide password `okon`.
 
 ```bash
@@ -14,7 +15,8 @@ enter aes-256-cbc decryption password:
 Files decrypted successfully
 ```
 
-This script creates [`security/openssl-enc/assets/decrypted/](./assets/decrypted) (git ignored) directory containing file with decoded value:
+This script creates [`security/openssl-enc/assets/decrypted/`](./assets/decrypted) (git ignored) directory containing file with decoded value:
+
 ```yaml
 hakuna: matata
 ```

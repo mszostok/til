@@ -1,6 +1,6 @@
 # Dockerfile frontend experimental syntaxes
 
-The problem that I wanted to solve was a long docker build time for images. I had a Go application and each time I've changed the source code and wanted to rebuild the image it took so much time. The issue was that the layers were wrongly defined and there was no support for Go caching mechanisms.     
+The problem that I wanted to solve was a long docker build time for images. I had a Go application and each time I've changed the source code and wanted to rebuild the image it took so much time. The issue was that the layers were wrongly defined and there was no support for Go caching mechanisms.
 
 To reduce the time need for a build I've added:
 - cache for `go mod download`
@@ -8,10 +8,10 @@ To reduce the time need for a build I've added:
 - remove `COPY` and mount volume with sources instead
 - reduce data copied to docker build context
 
-I've also used the [Dockerfile frontend experimental syntaxes][1] as was describe nicely in [this][2] blog post series. 
- 
+I've also used the [Dockerfile frontend experimental syntaxes](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md) as was describe nicely in [this](https://www.docker.com/blog/tag/go-env-series/) blog post series.
+
 Final Dockerfile:
- 
+
 ```dockerfile
 # syntax = docker/dockerfile:1-experimental
 
@@ -56,6 +56,3 @@ export DOCKER_BUILDKIT=1
 # build image
 docker build --build-arg COMPONENT=agent -t mszostok/agent:0.0.1 .
 ```
-
-[1]: https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md
-[2]: https://www.docker.com/blog/tag/go-env-series/

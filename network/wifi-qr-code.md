@@ -15,4 +15,5 @@ WIFI:S:My_SSID;T:WPA;P:key goes here;H:false;
 Escape any special characters (", ', ;, ,, or \) with a backslash.
 
 _source: https://superuser.com/a/1459233_
+
 _source: https://github.com/bndw/wifi-card_

@@ -4,7 +4,7 @@
 
 A collection of concise write-ups on small things we learn day to day across a variety of languages and technologies.
 
-_10 TIL and counting..._
+*10 TIL and counting...*
 
 ## Categories
 
@@ -15,6 +15,7 @@ _10 TIL and counting..._
 * [Network](#network)
 * [Security](#security)
 * [System](#system)
+
 ---
 
 ## Docker
