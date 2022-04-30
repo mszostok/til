@@ -5,6 +5,7 @@ You need to take it with a grain of salt ;)
 > What’s your favorite database?
 >
 > Mine is Route 53.
+> <!--more-->
 >
 > It has a 100% SLA, you can query it, and DNS is fundamentally a large key-value store.
 >

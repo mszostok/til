@@ -4,6 +4,7 @@
 
 You shouldn't use, `echo` command , environment variables, or CLI flags to pass a sensitive data to any CLI.
 The problem here is that it may be captured by shell history or process listings. So some 3rd party program can list running processes and steal sensitive data.
+<!--more-->
 
 The `curl` accepts the sensitive data `username:password` in CLI flags, but they try to minimize the risk by removing input arguments in the runtime, see:
 

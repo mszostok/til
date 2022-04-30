@@ -8,6 +8,8 @@ To reduce the time need for a build I've added:
 - remove `COPY` and mount volume with sources instead
 - reduce data copied to docker build context
 
+<!--more-->
+
 I've also used the [Dockerfile frontend experimental syntaxes](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/experimental.md) as was describe nicely in [this](https://www.docker.com/blog/tag/go-env-series/) blog post series.
 
 Final Dockerfile:

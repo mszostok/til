@@ -2,6 +2,8 @@
 
 GitHub allows you to delete each GitHub Action run separately. Removing all of them at once is not possible in UI. As a workaround, the GitHub API can be used to automate the workflow deletion.
 
+<!--more-->
+
 This can be necessary, if you want to make you private repo, publicly available but your Action executions have sensitive data stored in logs.
 
 You can use the [GitHub CLI](https://cli.github.com/) to make API calls.

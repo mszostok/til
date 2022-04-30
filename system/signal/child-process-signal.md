@@ -5,6 +5,7 @@ By default, when the `exec.Cmd` is used, the child process is assigned the main 
 > In a POSIX-conformant operating system, a process group denotes a collection of one or more processes.
 > Among other things, a process group is used to control the distribution of a signal; when a signal is directed to a process group,
 > the signal is delivered to each process that is a member of the group.
+<!--more-->
 
 We can change that behavior with `setpgid` syscall:
 

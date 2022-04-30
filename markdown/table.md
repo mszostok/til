@@ -2,6 +2,8 @@
 
 You can use HTML tables to show the diff quite nicely, see:
 
+<!--more-->
+
 - New feature: **Support multiple input parameters on Implementation**
   <table>
   <tr>

@@ -6,6 +6,8 @@ TL;DR; The key here is this fact:
 >
 > OPTIONAL MATCH - always return at least null
 
+<!--more-->
+
 So without `OPTIONAL` if node doesn't exist, the `MATCH` returns **no records** and Cyper query is not continued, which makes sens as we don't have "items" on which we can operate later.
 
 In my example, I had:

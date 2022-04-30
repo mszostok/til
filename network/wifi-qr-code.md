@@ -1,6 +1,7 @@
 # Generate QR code for your WiFi login details
 
 You can generate these codes using an online service, or using the QR generator of your choice and feeding it this text:
+<!--more-->
 
 ```text
 WIFI:S:My_SSID;T:WPA;P:key goes here;H:false;

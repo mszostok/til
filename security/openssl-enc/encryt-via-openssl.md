@@ -2,6 +2,7 @@
 
 Sometimes you want to store some secrets in your git repository. It is a good practice to have them encrypted if stored externally (publicly).
 There are dedicated solutions such as [`git-secret`](https://git-secret.io/) or [`git-crypt`](https://github.com/AGWA/git-crypt). However, you can also achieve similar result with the [`openssl`](https://www.openssl.org/) tool, which is quite often already preinstalled on your host.
+<!--more-->
 
 ## Example
 
