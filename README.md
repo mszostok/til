@@ -4,7 +4,7 @@
 
 A collection of concise write-ups on small things we learn day to day across a variety of languages and technologies.
 
-*10 TIL and counting...*
+*11 TIL and counting...*
 
 ## Categories
 
@@ -38,6 +38,7 @@ A collection of concise write-ups on small things we learn day to day across a v
 
 - [URL shortener as TXT records](network/url-shortener-txt-records.md)
 - [Generate QR code for your WiFi login details](network/wifi-qr-code.md)
+- [Email Alias](network/email-alias.md)
 
 ## Security
 
