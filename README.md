@@ -28,7 +28,7 @@ A collection of concise write-ups on small things we learn day to day across a v
 
 ## Markdown
 
-- [Diff tables](markdown/table.md)
+- [Diff tables](markdown/github/table.md)
 
 ## Neo4j
 

@@ -4,6 +4,10 @@ You can use HTML tables to show the diff quite nicely, see:
 
 <!--more-->
 
+![](./assets/gh-table-diff.png)
+
+Code:
+``````markdown
 - New feature: **Support multiple input parameters on Implementation**
   <table>
   <tr>
@@ -33,3 +37,4 @@ You can use HTML tables to show the diff quite nicely, see:
   </td>
   </tr>
   </table>
+``````
